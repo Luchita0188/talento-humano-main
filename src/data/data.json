@@ -112,67 +112,50 @@
     ],
     "resources": {
       "img1": "img/2/npc-1.png"
-    },
-    "multimedia": {
-      "audio": {
-        "src": "",
-        "autoPlay": true
-      },
-      "subtitle": {},
-      "layers": [
-        {
-          "label": "01 - Historia y contexto",
-          "color": "#780E80",
-          "time": 30
-        },
-        {
-          "label": "02 - Naturaleza y Tipologia",
-          "color": "#780E80",
-          "time": 32
-        },
-        {
-          "label": "03 - Mision y Vision",
-          "color": "#780E80",
-          "time": 34
-        },
-        {
-          "label": "04 - Valores institucionales",
-          "color": "#780E80",
-          "time": 35
-        },
-        {
-          "label": "05 - Elementos diferenciales",
-          "color": "#780E80",
-          "time": 36
-        },
-        {
-          "label": "06 - Principios organizacionales",
-          "color": "#780E80",
-          "time": 39
-        },
-        {
-          "label": "07 - Codigo de vestuario",
-          "color": "#780E80",
-          "time": 40
-        },
-        {
-          "label": "08 - Permiso y licencias",
-          "color": "#780E80",
-          "time": 41
-        },
-        {
-          "label": "09 - Beneficios",
-          "color": "#780E80",
-          "time": 43
-        },
-        {
-          "label": "10 - Nuestras sedes",
-          "color": "#780E80",
-          "time": 45
-        }
-      ]
-    }
+    } 
   },
+  "layers": [
+    {
+      "label": "Historia y Contesto",
+      "color": "#780E80"
+    },
+    {
+      "label": "Naturaleza y Tipologia",
+      "color": "#780E80"
+    },
+    {
+      "label": "Mision y Vision",
+      "color": "#780E80"
+    },
+    {
+      "label": "Valores institucionales",
+      "color": "#780E80"
+    },
+    {
+      "label": " Elementos diferenciales",
+      "color": "#780E80"
+    },
+    {
+      "label": " Principios organizacionales",
+      "color": "#780E80"
+    },
+    {
+      "label": "Codigo de vestuario",
+      "color": "#780E80"
+    },
+    {
+      "label": "Permiso y licencias",
+      "color": "#780E80"
+    },
+    {
+      "label": "Beneficios",
+      "color": "#780E80"
+    },
+    {
+      "label": "Nuestras sedes",
+      "color": "#780E80"
+    }
+  ],
 
   "page3": {
     "type": "pageCourse",
@@ -696,849 +679,835 @@
         {
           "img": "img/11/unid-1.png",
           "text": "",
-          "textPos": {
-            "posY": 289,
-            "posX": 95,
-            "width": 131
+          "bg": "img/11/check.png",
+          "bgPosY"  : 7,
+          "bgPosX"  : 425
+        },
+        {
+          "img": "img/11/unid-2.png",
+          "text": "",
+          "bg": "",
+          "bgPosY"  : 7,
+          "bgPosX"  : 425
+        }
+      ],
+      "buttonClose": {
+        "closedModal": true,
+        "posY": -10,
+        "posX": -10
+      }
+    },
+
+    "page12": {
+      "type": "pageCourse",
+      "title": "9. Permisos y licencias",
+      "text": "Los colaboradores de la Institución Universitaria Salazar y Herrera tienen derecho al reconocimiento de permisos y licencias basado en situaciones personales y/o familiares en los que se requiera tiempo para dar solución a ciertos inconvenientes. ",
+
+      "instruction": {
+        "type": "mouse",
+        "text": "Haz clic en los botones para conocer el contenido.",
+        "posY": 50,
+        "posX": 660,
+        "size": 330,
+        "color": "#FFD15C"
+      },
+
+      "background": {
+        "bg": "img/12/bgPage-12.png"
+      },
+      "multimedia": [
+        {
+          "urlImgBtn": "img/12/unid-1.png",
+          "title": "",
+          "posY": 190,
+          "posX": 92,
+          "itemInfo": {
+            "title": "01- Licencia de Maternidad",
+            "text1": "El Código Sustantivo de Trabajo en su Artículo 236 indica que, toda trabajadora, en estado gestante, tiene derecho a 14 semanas de licencia de maternidad. Las semanas se dividirán en, 2 prenatales y 12 postnatales. La empleada deberá informar a su superior jerárquico y este a su vez informará a Cultivo de lo Humano sobre el estado de gravidez con el fin de facilitar la asistencia a las citas de control y programar la entrega de las labores que tiene la trabajadora para que sean suplidas por otro empleado.",
+            "colorText": "#B1083C",
+            "buttonClose": {
+              "closedModal": true,
+              "posY": -18,
+              "posX": -5
+            }
           }
         },
         {
-          "img"       : "img/11/unid-2.png",
-          "text"      : "",
-          "textPos": {
-            "posY"    : 40,
-            "posX"    : 20,
-            "width"   : 50
+          "urlImgBtn": "img/12/unid-2.png",
+          "title": "",
+          "posY": 90,
+          "posX": 200,
+          "itemInfo": {
+            "title": "02 - Licencia por paternidad ",
+            "text1": "La ley otorga dos semanas para que los hombres acompañen el nacimiento de su hijo. El empleado deberá informar a su superior jerárquico y este a su vez informará a Cultivo de lo Humano sobre el estado de gravidez de su esposa o compañera permanente acreditada, con el fin de programar la entrega de las labores que tiene el colaborador para que sean suplidas por otro empleado. Al momento de hacer efectiva la licencia, el empleado debe aportar a la Institución un registro civil de nacimiento del menor.",
+            "colorText": "#6B1090",
+            "buttonClose": {
+              "closedModal": true,
+              "posY": -18,
+              "posX": -5
+            }
+          }
+        },
+        {
+          "urlImgBtn": "img/12/unid-3.png",
+          "title": "Licencia por grave calamidad doméstica",
+          "posY": 190,
+          "posX": 300,
+          "itemInfo": {
+            "title": "03 - Licencia por grave calamidad doméstica",
+            "text1": "Cuando el trabajador cruza por un suceso familiar o personal por dificultades de salud o atribuibles a caso fortuito o fuerza mayor que afecte el correcto desarrollo de sus funciones, el empleador tiene la potestad de permitirle ausentarse hasta por 5 días hábiles remunerados con las evidencias suficientes que demuestren la calamidad. El empleador podrá pactar con el empleado la forma de reponer el tiempo concedido.",
+            "colorText": "#04386D",
+            "buttonClose": {
+              "closedModal": true,
+              "posY": -18,
+              "posX": -5
+            }
+          }
+        },
+        {
+          "urlImgBtn": "img/12/unid-4.png",
+          "title": "",
+          "posY": 95,
+          "posX": 405,
+          "itemInfo": {
+            "title": "04 - Licencia de luto",
+            "text1": "En virtud de lo descrito por la Ley 1280 de 2009, se debe conceder 5 días hábiles remunerados en el caso de que al empleado sufra la pérdida de un ser querido. La Licencia será por el fallecimiento de su cónyuge, compañero(a) permanente, papá, mamá, hijo, hija, hermanos, abuelos, nietos, suegro, suegra, yerno, nuera, hijo de su compañero(a) permanente que no sean de la relación.<br><br>En caso de que el fallecimiento sea de una persona diferente a las anteriormente descritas, es potestativo del empleador otorgar el tiempo al empleado para los casos de sobrinos, tíos, primos, bisabuelos, bisnietos un término de 2 días. De igual forma, cuando quien fallece no tiene ningún tipo de grado de afinidad o consanguinidad con el empleado, (cuñados, amigos, compañeros de trabajo) el empleador o jefe directo si lo considera pertinente otorgará 3  horas de licencia siempre y cuando no se afecte el funcionamiento de la empresa.</br>.",
+            "colorText": "#008DF6",
+            "buttonClose": {
+              "closedModal": true,
+              "posY": -18,
+              "posX": -5
+            }
+          }
+        },
+        {
+          "urlImgBtn": "img/12/unid-5.png",
+          "title": "",
+          "posY": 188,
+          "posX": 510,
+          "itemInfo": {
+            "title": "05 - Licencia como consecuencia del desempeño de cargos oficiales",
+            "text1": "Cuando el trabajador es solicitado por el estado para ejercer funciones como jurado de votación, el empleador debe permitirle asistir y, dentro de los 45 días siguientes otorgarle un día de descanso remunerado.",
+            "colorText": "#007568",
+            "buttonClose": {
+              "closedModal": true,
+              "posY": -18,
+              "posX": -5
+            }
+          }
+        },
+        {
+          "urlImgBtn": "img/12/unid-6.png",
+          "title": "",
+          "posY": 100,
+          "posX": 620,
+          "itemInfo": {
+            "title": "06 - Licencia para ejercer el derecho al voto",
+            "text1": "El trabajador debe permitir al empleador asistir a las jornadas electorales. Como recompensa a la asistencia, el trabajador recibirá medio día de descanso en el mes siguiente del día de votación.",
+            "colorText": "#629A14",
+            "buttonClose": {
+              "closedModal": true,
+              "posY": -18,
+              "posX": -5
+            }
+          }
+        },
+        {
+          "urlImgBtn": "img/12/unid-7.png",
+          "title": "",
+          "posY": 200,
+          "posX": 720,
+          "itemInfo": {
+            "title": "07 - Autorización para asistir a citas médicas",
+            "text1": "El colaborador que requiera citas médicas necesarias para atender problemas de salud, prevención o de control de sí mismo o de su compañero(a) permanente, papá, mamá, hijo, hija, deberá informar a su superior jerárquico sobre su ausencia para cumplir con dicha cita. En todo caso el empleado deberá presentar la constancia de la cita y/o el certificado de hora de salida de la misma, la cual será entregada en la respectiva IPS. <br><br>Todas las ausencias deberán ser comunicadas al jefe directo y este lo reportará a Cultivo de lo Humano con el fin de tener conocimiento de dichos permisos y realizar los trámites pertinentes ante la ARL por dicho ausentismo.</br>",
+            "colorText": "#ED7702",
+            "buttonClose": {
+              "closedModal": true,
+              "posY": -18,
+              "posX": -5
+            }
+          }
+        },
+        {
+          "urlImgBtn": "img/12/unid-8.png",
+          "title": "",
+          "posY": 99,
+          "posX": 820,
+          "itemInfo": {
+            "title": "08 - Licencias superiores a un día",
+            "text1": "Cuando el permiso o licencia es superior a un día de trabajo, se debe informar y/o solicitar la autorización mediante escrito, el cual debe ser previamente conocido por el jefe directo y firmado por el Rector. En el escrito se debe plantear la situación y el tiempo que no asistirá el empleado.",
+            "colorText": "#CC2E44",
+            "buttonClose": {
+              "closedModal": true,
+              "posY": -18,
+              "posX": -5
+            }
           }
         }
-      ],
-      "infoEnd": {
-        "title": "",
-        "text1": "",
-        "img2": "",
-        "colorText": "",
-        "pos": {
-          "top": 40,
-          "left": -222
-        },
-        "buttonClose": {
-          "closedModal": true,
-          "posY": -10,
-          "posX": -10
-        }
+      ]
+    },
+
+    "page13": {
+      "type": "pageCourse",
+      "title": "10. Beneficios",
+      "text": "",
+      "instruction": {
+        "type": "mouse",
+        "text": "Haz clic en cada ícono para conocer los beneficios que tenemos por ser empleados de la Institución.",
+        "posY": 50,
+        "posX": 660,
+        "size": 330,
+        "color": "#FFD15C"
       },
-
-      "page12": {
-        "type": "pageCourse",
-        "title": "9. Permisos y licencias",
-        "text": "Los colaboradores de la Institución Universitaria Salazar y Herrera tienen derecho al reconocimiento de permisos y licencias basado en situaciones personales y/o familiares en los que se requiera tiempo para dar solución a ciertos inconvenientes. ",
-
-        "instruction": {
-          "type": "mouse",
-          "text": "Haz clic en los botones para conocer el contenido.",
-          "posY": 50,
-          "posX": 660,
-          "size": 330,
-          "color": "#FFD15C"
-        },
-
-        "background": {
-          "bg": "img/12/bgPage-12.png"
-        },
-        "multimedia": [
+      "multimedia": {
+        "type": "icon",
+        "items": [
           {
-            "urlImgBtn": "img/12/unid-1.png",
-            "title": "",
-            "posY": 190,
-            "posX": 92,
-            "itemInfo": {
-              "title": "01- Licencia de Maternidad",
-              "text1": "El Código Sustantivo de Trabajo en su Artículo 236 indica que, toda trabajadora, en estado gestante, tiene derecho a 14 semanas de licencia de maternidad. Las semanas se dividirán en, 2 prenatales y 12 postnatales. La empleada deberá informar a su superior jerárquico y este a su vez informará a Cultivo de lo Humano sobre el estado de gravidez con el fin de facilitar la asistencia a las citas de control y programar la entrega de las labores que tiene la trabajadora para que sean suplidas por otro empleado.",
-              "colorText": "#B1083C",
-              "buttonClose": {
-                "closedModal": true,
-                "posY": -18,
-                "posX": -5
-              }
-            }
+            "id": 1,
+            "title": "Descuento para estudio",
+            "text": "Nota: para el caso de los practicantes, ellos no tienen acceso al descuento para estudio ni a la caja de compensación.",
+            "img": "img/13/unid-1.png"
           },
           {
-            "urlImgBtn": "img/12/unid-2.png",
-            "title": "",
-            "posY": 90,
-            "posX": 200,
-            "itemInfo": {
-              "title": "02 - Licencia por paternidad ",
-              "text1": "La ley otorga dos semanas para que los hombres acompañen el nacimiento de su hijo. El empleado deberá informar a su superior jerárquico y este a su vez informará a Cultivo de lo Humano sobre el estado de gravidez de su esposa o compañera permanente acreditada, con el fin de programar la entrega de las labores que tiene el colaborador para que sean suplidas por otro empleado. Al momento de hacer efectiva la licencia, el empleado debe aportar a la Institución un registro civil de nacimiento del menor.",
-              "colorText": "#6B1090",
-              "buttonClose": {
-                "closedModal": true,
-                "posY": -18,
-                "posX": -5
-              }
-            }
+            "id": 2,
+            "title": "Servicio odontológico.",
+            "text": "Teléfono: 4600700 Ext. 2147",
+            "img": "img/13/unid-2.png"
           },
           {
-            "urlImgBtn": "img/12/unid-3.png",
-            "title": "Licencia por grave calamidad doméstica",
-            "posY": 190,
-            "posX": 300,
-            "itemInfo": {
-              "title": "03 - Licencia por grave calamidad doméstica",
-              "text1": "Cuando el trabajador cruza por un suceso familiar o personal por dificultades de salud o atribuibles a caso fortuito o fuerza mayor que afecte el correcto desarrollo de sus funciones, el empleador tiene la potestad de permitirle ausentarse hasta por 5 días hábiles remunerados con las evidencias suficientes que demuestren la calamidad. El empleador podrá pactar con el empleado la forma de reponer el tiempo concedido.",
-              "colorText": "#04386D",
-              "buttonClose": {
-                "closedModal": true,
-                "posY": -18,
-                "posX": -5
-              }
-            }
+            "id": 3,
+            "title": "Gimnasio.",
+            "text": "Teléfono: 4600700 Ext. 2260",
+            "img": "img/13/unid-3.png"
           },
           {
-            "urlImgBtn": "img/12/unid-4.png",
-            "title": "",
-            "posY": 95,
-            "posX": 405,
-            "itemInfo": {
-              "title": "04 - Licencia de luto",
-              "text1": "En virtud de lo descrito por la Ley 1280 de 2009, se debe conceder 5 días hábiles remunerados en el caso de que al empleado sufra la pérdida de un ser querido. La Licencia será por el fallecimiento de su cónyuge, compañero(a) permanente, papá, mamá, hijo, hija, hermanos, abuelos, nietos, suegro, suegra, yerno, nuera, hijo de su compañero(a) permanente que no sean de la relación.<br><br>En caso de que el fallecimiento sea de una persona diferente a las anteriormente descritas, es potestativo del empleador otorgar el tiempo al empleado para los casos de sobrinos, tíos, primos, bisabuelos, bisnietos un término de 2 días. De igual forma, cuando quien fallece no tiene ningún tipo de grado de afinidad o consanguinidad con el empleado, (cuñados, amigos, compañeros de trabajo) el empleador o jefe directo si lo considera pertinente otorgará 3  horas de licencia siempre y cuando no se afecte el funcionamiento de la empresa.</br>.",
-              "colorText": "#008DF6",
-              "buttonClose": {
-                "closedModal": true,
-                "posY": -18,
-                "posX": -5
-              }
-            }
+            "id": 4,
+            "title": "Asesoría psicológica.",
+            "text": "Teléfono: 4600700 Ext. 2133-2110",
+            "img": "img/13/unid-4.png"
           },
           {
-            "urlImgBtn": "img/12/unid-5.png",
-            "title": "",
-            "posY": 188,
-            "posX": 510,
-            "itemInfo": {
-              "title": "05 - Licencia como consecuencia del desempeño de cargos oficiales",
-              "text1": "Cuando el trabajador es solicitado por el estado para ejercer funciones como jurado de votación, el empleador debe permitirle asistir y, dentro de los 45 días siguientes otorgarle un día de descanso remunerado.",
-              "colorText": "#007568",
-              "buttonClose": {
-                "closedModal": true,
-                "posY": -18,
-                "posX": -5
-              }
-            }
-          },
-          {
-            "urlImgBtn": "img/12/unid-6.png",
-            "title": "",
-            "posY": 100,
-            "posX": 620,
-            "itemInfo": {
-              "title": "06 - Licencia para ejercer el derecho al voto",
-              "text1": "El trabajador debe permitir al empleador asistir a las jornadas electorales. Como recompensa a la asistencia, el trabajador recibirá medio día de descanso en el mes siguiente del día de votación.",
-              "colorText": "#629A14",
-              "buttonClose": {
-                "closedModal": true,
-                "posY": -18,
-                "posX": -5
-              }
-            }
-          },
-          {
-            "urlImgBtn": "img/12/unid-7.png",
-            "title": "",
-            "posY": 200,
-            "posX": 720,
-            "itemInfo": {
-              "title": "07 - Autorización para asistir a citas médicas",
-              "text1": "El colaborador que requiera citas médicas necesarias para atender problemas de salud, prevención o de control de sí mismo o de su compañero(a) permanente, papá, mamá, hijo, hija, deberá informar a su superior jerárquico sobre su ausencia para cumplir con dicha cita. En todo caso el empleado deberá presentar la constancia de la cita y/o el certificado de hora de salida de la misma, la cual será entregada en la respectiva IPS. <br><br>Todas las ausencias deberán ser comunicadas al jefe directo y este lo reportará a Cultivo de lo Humano con el fin de tener conocimiento de dichos permisos y realizar los trámites pertinentes ante la ARL por dicho ausentismo.</br>",
-              "colorText": "#ED7702",
-              "buttonClose": {
-                "closedModal": true,
-                "posY": -18,
-                "posX": -5
-              }
-            }
-          },
-          {
-            "urlImgBtn": "img/12/unid-8.png",
-            "title": "",
-            "posY": 99,
-            "posX": 820,
-            "itemInfo": {
-              "title": "08 - Licencias superiores a un día",
-              "text1": "Cuando el permiso o licencia es superior a un día de trabajo, se debe informar y/o solicitar la autorización mediante escrito, el cual debe ser previamente conocido por el jefe directo y firmado por el Rector. En el escrito se debe plantear la situación y el tiempo que no asistirá el empleado.",
-              "colorText": "#CC2E44",
-              "buttonClose": {
-                "closedModal": true,
-                "posY": -18,
-                "posX": -5
-              }
-            }
+            "id": 5,
+            "title": "Caja de compensación.",
+            "text": "",
+            "img": "img/13/unid-5.png"
           }
         ]
-      },
+      }
+    },
 
-      "page13": {
-        "type": "pageCourse",
-        "title": "10. Beneficios",
-        "text": "",
-        "instruction": {
-          "type": "mouse",
-          "text": "Haz clic en cada ícono para conocer los beneficios que tenemos por ser empleados de la Institución.",
-          "posY": 50,
-          "posX": 660,
-          "size": 330,
-          "color": "#FFD15C"
-        },
-        "multimedia": {
-          "type": "icon",
-          "items": [
-            {
-              "id": 1,
-              "title": "Descuento para estudio",
-              "text": "Nota: para el caso de los practicantes, ellos no tienen acceso al descuento para estudio ni a la caja de compensación.",
-              "img": "img/13/unid-1.png"
-            },
-            {
-              "id": 2,
-              "title": "Servicio odontológico.",
-              "text": "Teléfono: 4600700 Ext. 2147",
-              "img": "img/13/unid-2.png"
-            },
-            {
-              "id": 3,
-              "title": "Gimnasio.",
-              "text": "Teléfono: 4600700 Ext. 2260",
-              "img": "img/13/unid-3.png"
-            },
-            {
-              "id": 4,
-              "title": "Asesoría psicológica.",
-              "text": "Teléfono: 4600700 Ext. 2133-2110",
-              "img": "img/13/unid-4.png"
-            },
-            {
-              "id": 5,
-              "title": "Caja de compensación.",
-              "text": "",
-              "img": "img/13/unid-5.png"
-            }
-          ]
-        }
+    "page14": {
+      "type": "pageCourse",
+      "title": "11. Conoce nuestras sedes",
+      "text": "La Organización Salazar y Herrera cuenta con varias sedes, te invitamos a conocerlas a continuación.",
+      "instruction": {
+        "type": "mouse",
+        "text": "Haz clic en cada botón para visualizar la galería de imágenes.",
+        "posY": 50,
+        "posX": 660,
+        "size": 330,
+        "color": "#FFD15C"
       },
-
-      "page14": {
-        "type": "pageCourse",
-        "title": "11. Conoce nuestras sedes",
-        "text": "La Organización Salazar y Herrera cuenta con varias sedes, te invitamos a conocerlas a continuación.",
-        "instruction": {
-          "type": "mouse",
-          "text": "Haz clic en cada botón para visualizar la galería de imágenes.",
-          "posY": 50,
-          "posX": 660,
-          "size": 330,
-          "color": "#FFD15C"
+      "multimedia": {
+        "buttonModal": {
+          "title": "",
+          "text": "",
+          "imgBg1": "img/14/btn-1.png",
+          "imgBg2": "img/14/btn-3.png"
         },
-        "multimedia": {
-          "buttonModal": {
-            "title": "",
+        "gallery": [
+          {
+            "key": 1,
+            "img": "img/14/img-1.jpg",
+            "link": ""
+          },
+          {
+            "key": 2,
+            "img": "img/14/img-2.jpg",
+            "link": ""
+          },
+          {
+            "key": 3,
+            "img": "img/14/img-3.jpg",
+            "link": ""
+          },
+          {
+            "key": 4,
+            "img": "img/14/img-4.jpg",
+            "link": ""
+          },
+          {
+            "key": 5,
+            "img": "img/14/img-5.jpg",
+            "link": ""
+          },
+          {
+            "key": 6,
+            "img": "img/14/img-6.jpg",
+            "link": ""
+          },
+          {
+            "key": 7,
+            "img": "img/14/img-7.jpg",
+            "link": ""
+          },
+          {
+            "key": 8,
+            "img": "img/14/img-8.jpg",
+            "link": ""
+          },
+          {
+            "key": 9,
+            "img": "img/14/img-9.jpg",
+            "link": ""
+          },
+          {
+            "key": 10,
+            "img": "img/14/img-10.jpg",
+            "link": ""
+          },
+          {
+            "key": 11,
+            "img": "img/14/img-11.jpg",
+            "link": ""
+          },
+          {
+            "key": 12,
+            "img": "img/14/img-12.jpg",
+            "link": ""
+          },
+          {
+            "key": 13,
+            "img": "img/14/img-13.jpg",
+            "link": ""
+          },
+          {
+            "key": 14,
+            "img": "img/14/img-14.jpg",
+            "link": ""
+          },
+          {
+            "key": 15,
+            "img": "img/14/img-15.jpg",
+            "link": ""
+          },
+          {
+            "key": 16,
+            "img": "img/14/img-16.jpg",
+            "link": ""
+          },
+          {
+            "key": 17,
+            "img": "img/14/img-17.jpg",
+            "link": ""
+          },
+          {
+            "key": 18,
+            "img": "img/14/img-18.jpg",
+            "link": ""
+          },
+          {
+            "key": 19,
+            "img": "img/14/img-19.jpg",
+            "link": ""
+          },
+          {
+            "key": 20,
+            "img": "img/14/img-20.jpg",
+            "link": ""
+          },
+          {
+            "key": 21,
+            "img": "img/14/img-21.jpg",
+            "link": ""
+          },
+          {
+            "key": 22,
+            "img": "img/14/img-22.jpg",
+            "link": ""
+          },
+          {
+            "key": 23,
+            "img": "img/14/img-23.jpg",
+            "link": ""
+          },
+          {
+            "key": 25,
+            "img": "img/14/img-24.jpg",
+            "link": ""
+          }
+        ],
+        "gallery2": [
+          {
+            "key": 1,
+            "img": "img/14/gale-1.jpg",
+            "link": ""
+          },
+          {
+            "key": 2,
+            "img": "img/14/gale-2.jpg",
+            "link": ""
+          },
+          {
+            "key": 3,
+            "img": "img/14/gale-3.jpg",
+            "link": ""
+          },
+          {
+            "key": 4,
+            "img": "img/14/gale-4.jpg",
+            "link": ""
+          },
+          {
+            "key": 5,
+            "img": "img/14/gale-5.jpg",
+            "link": ""
+          },
+          {
+            "key": 6,
+            "img": "img/14/gale-6.jpg",
+            "link": ""
+          },
+          {
+            "key": 7,
+            "img": "img/14/gale-7.jpg",
+            "link": ""
+          },
+          {
+            "key": 8,
+            "img": "img/14/gale-8.jpg",
+            "link": ""
+          },
+          {
+            "key": 9,
+            "img": "img/14/gale-9.jpg",
+            "link": ""
+          },
+          {
+            "key": 10,
+            "img": "img/14/gale-10.jpg",
+            "link": ""
+          },
+          {
+            "key": 11,
+            "img": "img/14/gale-11.jpg",
+            "link": ""
+          },
+          {
+            "key": 12,
+            "img": "img/14/gale-12.jpg",
+            "link": ""
+          },
+          {
+            "key": 13,
+            "img": "img/14/gale-13.jpg",
+            "link": ""
+          },
+          {
+            "key": 14,
+            "img": "img/14/gale-14.jpg",
+            "link": ""
+          },
+          {
+            "key": 15,
+            "img": "img/14/gale-15.jpg",
+            "link": ""
+          },
+          {
+            "key": 16,
+            "img": "img/14/gale-16.jpg",
+            "link": ""
+          },
+          {
+            "key": 17,
+            "img": "img/14/gale-17.jpg",
+            "link": ""
+          },
+          {
+            "key": 18,
+            "img": "img/14/gale-18.jpg",
+            "link": ""
+          },
+          {
+            "key": 19,
+            "img": "img/14/gale-19.jpg",
+            "link": ""
+          }
+        ],
+        "closedModal": true
+      }
+    },
+    "page15": {
+      "type": "pageCourse",
+      "title": "¡Has llegado al final de este recorrido!",
+      "text": "Estamos seguros que tienes nuevos<br>aprendizajes y que conoces un poco más acerca <br>de esta Organización.",
+      "text1": "¡Muchas gracias!",
+      "text2": "Te invitamos a realizar el ejercicio<br>valorativo de este módulo.",
+      "text3": "¡Exitos!",
+      "button": "Realizar prueba final",
+      "img": "img/15/npc-1.png",
+
+      "instruction": {
+        "type": "mouse",
+        "text": "Haz clic sobre el botón realizar prueba final para descubrir la información",
+        "posY": 50,
+        "posX": 600,
+        "size": 330,
+        "color": "#FFD15C"
+      }
+    },
+    "page16": {
+      "type": "pageCourse",
+      "title": "Ejercicio valorativo de este módulo",
+      "text": "",
+      "multimedia": {
+        "modal": {
+          "check": {
+            "title": "¡Muy bien!",
             "text": "",
-            "imgBg1": "img/14/btn-1.png",
-            "imgBg2": "img/14/btn-3.png"
+            "img": "img/16/check.png"
           },
-          "gallery": [
-            {
-              "key": 1,
-              "img": "img/14/img-1.jpg",
-              "link": ""
-            },
-            {
-              "key": 2,
-              "img": "img/14/img-2.jpg",
-              "link": ""
-            },
-            {
-              "key": 3,
-              "img": "img/14/img-3.jpg",
-              "link": ""
-            },
-            {
-              "key": 4,
-              "img": "img/14/img-4.jpg",
-              "link": ""
-            },
-            {
-              "key": 5,
-              "img": "img/14/img-5.jpg",
-              "link": ""
-            },
-            {
-              "key": 6,
-              "img": "img/14/img-6.jpg",
-              "link": ""
-            },
-            {
-              "key": 7,
-              "img": "img/14/img-7.jpg",
-              "link": ""
-            },
-            {
-              "key": 8,
-              "img": "img/14/img-8.jpg",
-              "link": ""
-            },
-            {
-              "key": 9,
-              "img": "img/14/img-9.jpg",
-              "link": ""
-            },
-            {
-              "key": 10,
-              "img": "img/14/img-10.jpg",
-              "link": ""
-            },
-            {
-              "key": 11,
-              "img": "img/14/img-11.jpg",
-              "link": ""
-            },
-            {
-              "key": 12,
-              "img": "img/14/img-12.jpg",
-              "link": ""
-            },
-            {
-              "key": 13,
-              "img": "img/14/img-13.jpg",
-              "link": ""
-            },
-            {
-              "key": 14,
-              "img": "img/14/img-14.jpg",
-              "link": ""
-            },
-            {
-              "key": 15,
-              "img": "img/14/img-15.jpg",
-              "link": ""
-            },
-            {
-              "key": 16,
-              "img": "img/14/img-16.jpg",
-              "link": ""
-            },
-            {
-              "key": 17,
-              "img": "img/14/img-17.jpg",
-              "link": ""
-            },
-            {
-              "key": 18,
-              "img": "img/14/img-18.jpg",
-              "link": ""
-            },
-            {
-              "key": 19,
-              "img": "img/14/img-19.jpg",
-              "link": ""
-            },
-            {
-              "key": 20,
-              "img": "img/14/img-20.jpg",
-              "link": ""
-            },
-            {
-              "key": 21,
-              "img": "img/14/img-21.jpg",
-              "link": ""
-            },
-            {
-              "key": 22,
-              "img": "img/14/img-22.jpg",
-              "link": ""
-            },
-            {
-              "key": 23,
-              "img": "img/14/img-23.jpg",
-              "link": ""
-            },
-            {
-              "key": 25,
-              "img": "img/14/img-24.jpg",
-              "link": ""
-            }
-          ],
-          "gallery2": [
-            {
-              "key": 1,
-              "img": "img/14/gale-1.jpg",
-              "link": ""
-            },
-            {
-              "key": 2,
-              "img": "img/14/gale-2.jpg",
-              "link": ""
-            },
-            {
-              "key": 3,
-              "img": "img/14/gale-3.jpg",
-              "link": ""
-            },
-            {
-              "key": 4,
-              "img": "img/14/gale-4.jpg",
-              "link": ""
-            },
-            {
-              "key": 5,
-              "img": "img/14/gale-5.jpg",
-              "link": ""
-            },
-            {
-              "key": 6,
-              "img": "img/14/gale-6.jpg",
-              "link": ""
-            },
-            {
-              "key": 7,
-              "img": "img/14/gale-7.jpg",
-              "link": ""
-            },
-            {
-              "key": 8,
-              "img": "img/14/gale-8.jpg",
-              "link": ""
-            },
-            {
-              "key": 9,
-              "img": "img/14/gale-9.jpg",
-              "link": ""
-            },
-            {
-              "key": 10,
-              "img": "img/14/gale-10.jpg",
-              "link": ""
-            },
-            {
-              "key": 11,
-              "img": "img/14/gale-11.jpg",
-              "link": ""
-            },
-            {
-              "key": 12,
-              "img": "img/14/gale-12.jpg",
-              "link": ""
-            },
-            {
-              "key": 13,
-              "img": "img/14/gale-13.jpg",
-              "link": ""
-            },
-            {
-              "key": 14,
-              "img": "img/14/gale-14.jpg",
-              "link": ""
-            },
-            {
-              "key": 15,
-              "img": "img/14/gale-15.jpg",
-              "link": ""
-            },
-            {
-              "key": 16,
-              "img": "img/14/gale-16.jpg",
-              "link": ""
-            },
-            {
-              "key": 17,
-              "img": "img/14/gale-17.jpg",
-              "link": ""
-            },
-            {
-              "key": 18,
-              "img": "img/14/gale-18.jpg",
-              "link": ""
-            },
-            {
-              "key": 19,
-              "img": "img/14/gale-19.jpg",
-              "link": ""
-            }
-          ],
-          "closedModal": true
-        }
-      },
-      "page15": {
-        "type": "pageCourse",
-        "title": "¡Has llegado al final de este recorrido!",
-        "text": "Estamos seguros que tienes nuevos<br>aprendizajes y que conoces un poco más acerca <br>de esta Organización.",
-        "text1": "¡Muchas gracias!",
-        "text2": "Te invitamos a realizar el ejercicio<br>valorativo de este módulo.",
-        "text3": "¡Exitos!",
-        "button": "Realizar prueba final",
-        "img": "img/15/npc-1.png",
-
-        "instruction": {
-          "type": "mouse",
-          "text": "Haz clic sobre el botón realizar prueba final para descubrir la información",
-          "posY": 50,
-          "posX": 600,
-          "size": 330,
-          "color": "#FFD15C"
-        }
-      },
-      "page16": {
-        "type": "pageCourse",
-        "title": "Ejercicio valorativo de este módulo",
-        "text": "",
-        "multimedia": {
-          "modal": {
-            "check": {
-              "title": "¡Muy bien!",
-              "text": "",
-              "img": "img/16/check.png"
-            },
-            "error": {
-              "title": "¡Intenta de nuevo!",
-              "text": "",
-              "img": "img/16/error.png"
-            }
-          },
-          "questions": [
-            {
-              "type": "multiple",
-              "statement": "<b>1.</b> Según la información vista en la historia y contexto, empareja correctamente la respuesta correcta.",
-              "options": [
-                {
-                  "type": "A",
-                  "text": "Año de diseño y factibilidad",
-                  "value": false,
-                  "color": "#00386D"
-                },
-                {
-                  "type": "B",
-                  "text": "Año de graduación de los primeros 20 tecnólogos",
-                  "value": false,
-                  "color": "#780D80"
-                },
-                {
-                  "type": "C",
-                  "text": "Año del inicio de las actividades académicas",
-                  "value": false,
-                  "color": "#86BF41"
-                },
-                {
-                  "type": "D",
-                  "text": "Año en que su colocó en marcha del primer <br>Proyecto Educativo Institucional (PEI)",
-                  "value": false,
-                  "color": "#D51B43"
-                },
-                {
-                  "type": "",
-                  "text": "2005",
-                  "value": true,
-                  "color": "#D51B43"
-                },
-                {
-                  "type": "",
-                  "text": "1995",
-                  "value": true,
-                  "color": "#86BF41"
-                },
-                {
-                  "type": "",
-                  "text": "1992",
-                  "value": true,
-                  "color": "#00386D"
-                },
-                {
-                  "type": "",
-                  "text": "1998",
-                  "value": true,
-                  "color": "#780D80"
-                }
-              ]
-            },
-            {
-              "type": "single",
-              "statement": "<b>2.</b> La Institución Universitaria Salazar y Herrera se caracteriza por ser:",
-              "options": [
-                {
-                  "type": "A",
-                  "text": "Una institución universitaria, privada, católica, donde se armoniza al diálogo entre fe y razón, así como fe y cultura, <br>además de mantener viva la formación de profesores, estudiantes y personal administrativo a través de la Doctrina Social de la Iglesia.",
-                  "value": true,
-                  "color": "#86BF41"
-                },
-                {
-                  "type": "B",
-                  "text": "Una institución universitaria, pública, católica, donde se armoniza al diálogo entre fe y razón, así como fe y cultura, además de mantener viva la formación de profesores, estudiantes y personal administrativo a través de la Doctrina Social de la Iglesia.",
-                  "value": false,
-                  "color": "#00386D"
-                },
-                {
-                  "type": "C",
-                  "text": "Una institución universitaria, privada, católica, donde se armoniza al diálogo entre fe y razón, además de mantener viva la formación de profesores, estudiantes y personal administrativo a través de la Doctrina Social de la Iglesia.",
-                  "value": false,
-                  "color": "#780D80"
-                }
-              ]
-            },
-            {
-              "type": "single",
-              "statement": "<b>3.</b> La Institución Universitaria Salazar y Herrera propone dentro de su misión:",
-              "options": [
-                {
-                  "type": "A",
-                  "text": "La formación integral evidenciada por la ética, académica, profesional y por la responsabilidad de su comunidad educativa.",
-                  "value": false,
-                  "color": "#F39625"
-                },
-                {
-                  "type": "B",
-                  "text": "La formación integral evidenciada por la alta calidad humana, ética, académica, profesional y por la responsabilidad social de su comunidad educativa.",
-                  "value": true,
-                  "color": "#48B4AF"
-                },
-                {
-                  "type": "C",
-                  "text": "La apropiación y transferencia del conocimiento mediada por la innovación, el emprendimiento, la tecnología y la creación.",
-                  "value": false,
-                  "color": "#3881B6"
-                }
-              ]
-            },
-            {
-              "type": "single",
-              "statement": "<b>4.</b>  La Institución Universitaria Salazar y Herrera tiene como visión en cuanto a Institución Católica:",
-              "options": [
-                {
-                  "type": "A",
-                  "text": "La interacción dinámica desde la creatividad, la tecnología y la ciencia para acceder a la educación.",
-                  "value": false,
-                  "color": "#48B4AF"
-                },
-                {
-                  "type": "B",
-                  "text": "La interacción dinámica y creativa entre la Fe, la Razón, la Ciencia, la Tecnología y la Productividad, para facilitar el acceso a la educación y a la investigación.",
-                  "value": false,
-                  "color": "#266D72"
-                },
-                {
-                  "type": "C",
-                  "text": "La interacción dinámica y creativa entre la Fe, la Razón, el Ser, la Ciencia, la Innovación, el Emprendimiento y la Tecnología, para impactar en la sociedad dando respuesta a problemáticas reales, por medio de su comunidad educativa, programas y proyectos de calidad en un marco de sostenibilidad.",
-                  "value": true,
-                  "color": "#780D80"
-                }
-              ]
-            },
-            {
-              "type": "single",
-              "statement": "<b>5.</b>  La Institución Universitaria Salazar y Herrera tiene como valores institucionales: ",
-              "options": [
-                {
-                  "type": "A",
-                  "text": "Fe, Dignidad Humana, Compromiso y Disciplina.",
-                  "value": true,
-                  "color": "#F14711"
-                },
-                {
-                  "type": "B",
-                  "text": "La generación de valor, La mediación social, el servicio, Defensa de la dignidad humana y el bien común, Cultura de la Innovación y Conciencia de Sostenibilidad.",
-                  "value": false,
-                  "color": "#3881B6"
-                },
-                {
-                  "type": "C",
-                  "text": "Participación, Solidaridad, Equidad, Seguridad",
-                  "value": false,
-                  "color": "#6DA001"
-                }
-              ]
-            },
-            {
-              "type": "multiple",
-              "statement": "<b>6.</b> Elige 3 parámetros correctos del código de vestuario: ",
-              "options": [
-                {
-                  "type": "A",
-                  "text": "No usar prendas demasiado ajustadas.",
-                  "value": true,
-                  "color": "#00386D"
-                },
-                {
-                  "type": "B",
-                  "text": "No se debe usar tenis (solo en eventos que así lo ameriten).",
-                  "value": true,
-                  "color": "#780D80"
-                },
-                {
-                  "type": "C",
-                  "text": "Los viernes uso del jean clásico.",
-                  "value": true,
-                  "color": "#6DA001"
-                },
-                {
-                  "type": "D",
-                  "text": "Se puede usar expansores, gorras y piercing. ",
-                  "value": false,
-                  "color": "#48B4AF"
-                },
-                {
-                  "type": "E",
-                  "text": "Uso del jean clásico en cualquier momento.",
-                  "value": false,
-                  "color": "#B30E6A"
-                }
-              ]
-            },
-            {
-              "type": "single",
-              "statement": "<b>7.</b> Según la información vista en permisos y licencias, empareja correctamente la respuesta.",
-              "options": [
-                {
-                  "type": "A",
-                  "text": "Licencia de maternidad",
-                  "value": true,
-                  "color": "#F39625"
-                },
-                {
-                  "type": "B",
-                  "text": "Licencia de luto",
-                  "value": true,
-                  "color": "#D51B43"
-                },
-                {
-                  "type": "C",
-                  "text": "Licencia por paternidad",
-                  "value": true,
-                  "color": "#F39625"
-                },
-                {
-                  "type": "D",
-                  "text": "Licencia por ejercer el derecho al voto",
-                  "value": true,
-                  "color": "#780D80"
-                }
-              ]
-            },
-            {
-              "type": "multiple",
-              "statement": "<b>8.</b> ¿Cuáles son las instituciones que hacen parte de la Familia Salazar y Herrera? ",
-              "options": [
-                {
-                  "type": "A",
-                  "text": "IUSH",
-                  "value": true,
-                  "color": "#B3056A"
-                },
-                {
-                  "type": "B",
-                  "text": "LICEO",
-                  "value": true,
-                  "color": "#780D80"
-                },
-                {
-                  "type": "C",
-                  "text": "CORSAHE",
-                  "value": false,
-                  "color": "#00386D"
-                },
-                {
-                  "type": "D",
-                  "text": "RONDALLA",
-                  "value": true,
-                  "color": "#7FAD1F"
-                },
-                {
-                  "type": "E",
-                  "text": "UPB",
-                  "value": false,
-                  "color": "#F39603"
-                }
-              ]
-            },
-            {
-              "type": "single",
-              "statement": "<b>9.</b>  ¿Cuántas Escuelas tiene la IUSH? ",
-              "options": [
-                {
-                  "type": "A",
-                  "text": "a. 5",
-                  "value": false,
-                  "color": "#7FAD1F"
-                },
-                {
-                  "type": "B",
-                  "text": "b. 4",
-                  "value": true,
-                  "color": "#48B4AF"
-                },
-                {
-                  "type": "C",
-                  "text": "c. 3",
-                  "value": false,
-                  "color": "#D51B43"
-                }
-              ]
-            },
-            {
-              "type": "single",
-              "statement": "<b>10.</b>  ¿Cuántos son los entes reguladores y articuladores teniendo en cuenta la información contenida en el organigrama? ",
-              "options": [
-                {
-                  "type": "A",
-                  "text": "6",
-                  "value": false,
-                  "color": "#780D80"
-                },
-                {
-                  "type": "B",
-                  "text": "4",
-                  "value": false,
-                  "color": "#00386D"
-                },
-                {
-                  "type": "C",
-                  "text": "3",
-                  "value": false,
-                  "color": "#6DA01C"
-                },
-                {
-                  "type": "D",
-                  "text": "Ninguna de las anteriores ",
-                  "value": true,
-                  "color": "#F39625"
-                }
-              ]
-            }
-          ]
-        }
-      },
-      "page17": {
-        "type": "endCourse",
-        "message": {
-          "success": {
-            "title": "¡Has llegado al final de este recorrido!",
-            "subTitle": "",
-            "module": "",
-            "courseName": "Estamos seguros que tienes nuevos aprendizajes y que pondrás en práctica todo lo aprendido."
-          },
-
           "error": {
-            "title": "¡Has llegado al final de este recorrido!",
-            "subTitle": "¡Muchos éxitos!",
-            "module": "",
-            "courseName": "Estamos seguros que tienes nuevos aprendizajes y que pondrás en práctica todo lo aprendido."
+            "title": "¡Intenta de nuevo!",
+            "text": "",
+            "img": "img/16/error.png"
           }
         },
-        "logoCourse": "img/cover/logo-1.png",
-        "logoFooter": "",
-        "background": {
-          "bg": "img/cover/fondo-end.png"
+        "questions": [
+          {
+            "type": "multiple",
+            "statement": "<b>1.</b> Según la información vista en la historia y contexto, empareja correctamente la respuesta correcta.",
+            "options": [
+              {
+                "type": "A",
+                "text": "Año de diseño y factibilidad",
+                "value": false,
+                "color": "#00386D"
+              },
+              {
+                "type": "B",
+                "text": "Año de graduación de los primeros 20 tecnólogos",
+                "value": false,
+                "color": "#780D80"
+              },
+              {
+                "type": "C",
+                "text": "Año del inicio de las actividades académicas",
+                "value": false,
+                "color": "#86BF41"
+              },
+              {
+                "type": "D",
+                "text": "Año en que su colocó en marcha del primer <br>Proyecto Educativo Institucional (PEI)",
+                "value": false,
+                "color": "#D51B43"
+              },
+              {
+                "type": "",
+                "text": "2005",
+                "value": true,
+                "color": "#D51B43"
+              },
+              {
+                "type": "",
+                "text": "1995",
+                "value": true,
+                "color": "#86BF41"
+              },
+              {
+                "type": "",
+                "text": "1992",
+                "value": true,
+                "color": "#00386D"
+              },
+              {
+                "type": "",
+                "text": "1998",
+                "value": true,
+                "color": "#780D80"
+              }
+            ]
+          },
+          {
+            "type": "single",
+            "statement": "<b>2.</b> La Institución Universitaria Salazar y Herrera se caracteriza por ser:",
+            "options": [
+              {
+                "type": "A",
+                "text": "Una institución universitaria, privada, católica, donde se armoniza al diálogo entre fe y razón, así como fe y cultura, <br>además de mantener viva la formación de profesores, estudiantes y personal administrativo a través de la Doctrina Social de la Iglesia.",
+                "value": true,
+                "color": "#86BF41"
+              },
+              {
+                "type": "B",
+                "text": "Una institución universitaria, pública, católica, donde se armoniza al diálogo entre fe y razón, así como fe y cultura, además de mantener viva la formación de profesores, estudiantes y personal administrativo a través de la Doctrina Social de la Iglesia.",
+                "value": false,
+                "color": "#00386D"
+              },
+              {
+                "type": "C",
+                "text": "Una institución universitaria, privada, católica, donde se armoniza al diálogo entre fe y razón, además de mantener viva la formación de profesores, estudiantes y personal administrativo a través de la Doctrina Social de la Iglesia.",
+                "value": false,
+                "color": "#780D80"
+              }
+            ]
+          },
+          {
+            "type": "single",
+            "statement": "<b>3.</b> La Institución Universitaria Salazar y Herrera propone dentro de su misión:",
+            "options": [
+              {
+                "type": "A",
+                "text": "La formación integral evidenciada por la ética, académica, profesional y por la responsabilidad de su comunidad educativa.",
+                "value": false,
+                "color": "#F39625"
+              },
+              {
+                "type": "B",
+                "text": "La formación integral evidenciada por la alta calidad humana, ética, académica, profesional y por la responsabilidad social de su comunidad educativa.",
+                "value": true,
+                "color": "#48B4AF"
+              },
+              {
+                "type": "C",
+                "text": "La apropiación y transferencia del conocimiento mediada por la innovación, el emprendimiento, la tecnología y la creación.",
+                "value": false,
+                "color": "#3881B6"
+              }
+            ]
+          },
+          {
+            "type": "single",
+            "statement": "<b>4.</b>  La Institución Universitaria Salazar y Herrera tiene como visión en cuanto a Institución Católica:",
+            "options": [
+              {
+                "type": "A",
+                "text": "La interacción dinámica desde la creatividad, la tecnología y la ciencia para acceder a la educación.",
+                "value": false,
+                "color": "#48B4AF"
+              },
+              {
+                "type": "B",
+                "text": "La interacción dinámica y creativa entre la Fe, la Razón, la Ciencia, la Tecnología y la Productividad, para facilitar el acceso a la educación y a la investigación.",
+                "value": false,
+                "color": "#266D72"
+              },
+              {
+                "type": "C",
+                "text": "La interacción dinámica y creativa entre la Fe, la Razón, el Ser, la Ciencia, la Innovación, el Emprendimiento y la Tecnología, para impactar en la sociedad dando respuesta a problemáticas reales, por medio de su comunidad educativa, programas y proyectos de calidad en un marco de sostenibilidad.",
+                "value": true,
+                "color": "#780D80"
+              }
+            ]
+          },
+          {
+            "type": "single",
+            "statement": "<b>5.</b>  La Institución Universitaria Salazar y Herrera tiene como valores institucionales: ",
+            "options": [
+              {
+                "type": "A",
+                "text": "Fe, Dignidad Humana, Compromiso y Disciplina.",
+                "value": true,
+                "color": "#F14711"
+              },
+              {
+                "type": "B",
+                "text": "La generación de valor, La mediación social, el servicio, Defensa de la dignidad humana y el bien común, Cultura de la Innovación y Conciencia de Sostenibilidad.",
+                "value": false,
+                "color": "#3881B6"
+              },
+              {
+                "type": "C",
+                "text": "Participación, Solidaridad, Equidad, Seguridad",
+                "value": false,
+                "color": "#6DA001"
+              }
+            ]
+          },
+          {
+            "type": "multiple",
+            "statement": "<b>6.</b> Elige 3 parámetros correctos del código de vestuario: ",
+            "options": [
+              {
+                "type": "A",
+                "text": "No usar prendas demasiado ajustadas.",
+                "value": true,
+                "color": "#00386D"
+              },
+              {
+                "type": "B",
+                "text": "No se debe usar tenis (solo en eventos que así lo ameriten).",
+                "value": true,
+                "color": "#780D80"
+              },
+              {
+                "type": "C",
+                "text": "Los viernes uso del jean clásico.",
+                "value": true,
+                "color": "#6DA001"
+              },
+              {
+                "type": "D",
+                "text": "Se puede usar expansores, gorras y piercing. ",
+                "value": false,
+                "color": "#48B4AF"
+              },
+              {
+                "type": "E",
+                "text": "Uso del jean clásico en cualquier momento.",
+                "value": false,
+                "color": "#B30E6A"
+              }
+            ]
+          },
+          {
+            "type": "single",
+            "statement": "<b>7.</b> Según la información vista en permisos y licencias, empareja correctamente la respuesta.",
+            "options": [
+              {
+                "type": "A",
+                "text": "Licencia de maternidad",
+                "value": true,
+                "color": "#F39625"
+              },
+              {
+                "type": "B",
+                "text": "Licencia de luto",
+                "value": true,
+                "color": "#D51B43"
+              },
+              {
+                "type": "C",
+                "text": "Licencia por paternidad",
+                "value": true,
+                "color": "#F39625"
+              },
+              {
+                "type": "D",
+                "text": "Licencia por ejercer el derecho al voto",
+                "value": true,
+                "color": "#780D80"
+              }
+            ]
+          },
+          {
+            "type": "multiple",
+            "statement": "<b>8.</b> ¿Cuáles son las instituciones que hacen parte de la Familia Salazar y Herrera? ",
+            "options": [
+              {
+                "type": "A",
+                "text": "IUSH",
+                "value": true,
+                "color": "#B3056A"
+              },
+              {
+                "type": "B",
+                "text": "LICEO",
+                "value": true,
+                "color": "#780D80"
+              },
+              {
+                "type": "C",
+                "text": "CORSAHE",
+                "value": false,
+                "color": "#00386D"
+              },
+              {
+                "type": "D",
+                "text": "RONDALLA",
+                "value": true,
+                "color": "#7FAD1F"
+              },
+              {
+                "type": "E",
+                "text": "UPB",
+                "value": false,
+                "color": "#F39603"
+              }
+            ]
+          },
+          {
+            "type": "single",
+            "statement": "<b>9.</b>  ¿Cuántas Escuelas tiene la IUSH? ",
+            "options": [
+              {
+                "type": "A",
+                "text": "a. 5",
+                "value": false,
+                "color": "#7FAD1F"
+              },
+              {
+                "type": "B",
+                "text": "b. 4",
+                "value": true,
+                "color": "#48B4AF"
+              },
+              {
+                "type": "C",
+                "text": "c. 3",
+                "value": false,
+                "color": "#D51B43"
+              }
+            ]
+          },
+          {
+            "type": "single",
+            "statement": "<b>10.</b>  ¿Cuántos son los entes reguladores y articuladores teniendo en cuenta la información contenida en el organigrama? ",
+            "options": [
+              {
+                "type": "A",
+                "text": "6",
+                "value": false,
+                "color": "#780D80"
+              },
+              {
+                "type": "B",
+                "text": "4",
+                "value": false,
+                "color": "#00386D"
+              },
+              {
+                "type": "C",
+                "text": "3",
+                "value": false,
+                "color": "#6DA01C"
+              },
+              {
+                "type": "D",
+                "text": "Ninguna de las anteriores ",
+                "value": true,
+                "color": "#F39625"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "page17": {
+      "type": "endCourse",
+      "message": {
+        "success": {
+          "title": "¡Has llegado al final de este recorrido!",
+          "subTitle": "",
+          "module": "",
+          "courseName": "Estamos seguros que tienes nuevos aprendizajes y que pondrás en práctica todo lo aprendido."
         },
-        "buttonEnd": "Finalizar",
-        "footer": {
-          "label": ""
+
+        "error": {
+          "title": "¡Has llegado al final de este recorrido!",
+          "subTitle": "¡Muchos éxitos!",
+          "module": "",
+          "courseName": "Estamos seguros que tienes nuevos aprendizajes y que pondrás en práctica todo lo aprendido."
         }
+      },
+      "logoCourse": "img/cover/logo-1.png",
+      "logoFooter": "",
+      "background": {
+        "bg": "img/cover/fondo-end.png"
+      },
+      "buttonEnd": "Finalizar",
+      "footer": {
+        "label": ""
       }
     }
   }

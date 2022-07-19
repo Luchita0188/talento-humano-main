@@ -29,6 +29,7 @@ import SlideDot1 from "../../components/SlideDot1";
 import SlideLR1 from "../../components/SlideLR1";
 import SlideLR2 from "../../components/SlideLR2";
 import SlideUpDown from "../../components/SlideUpDown";
+import Listas from "../../components/Listas";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -87,7 +88,7 @@ class Cover extends Component {
               dangerouslySetInnerHTML={{ __html: dataPage.title }}
             ></h1>
           )}
-          
+
           {dataPage.module && (
             <h3
               className="mB-1 mR-4"
@@ -294,6 +295,9 @@ class Page2 extends Component {
                 dangerouslySetInnerHTML={{ __html: dataPage.text }}
               ></p>
             ) : null}
+            <div className="mB-2 mL-4">
+              <Listas dataPage={dataPage} isEnded={this.isEnded} />
+            </div>
           </div>
         </div>
       </div>
@@ -750,8 +754,11 @@ class Page11 extends Component {
             ></p>
 
             <div className="mL-5 c-10">
-            <SlideLR2 multimedia = { dataPage.multimedia } handleClick = { this.handleClick } isEnded = { this.isEnded }  />
-            
+              <SlideLR2
+                multimedia={dataPage.multimedia}
+                handleClick={this.handleClick}
+                isEnded={this.isEnded}
+              />
             </div>
 
             <Instruction dataPage={dataPage.instruction} />
@@ -1077,8 +1084,7 @@ class Page17 extends Component {
         className={dataPage.type + " pL-4 animated fadeIn"}
         style={{ style }}
       >
-        {
-        dataPage.logoCourse && (
+        {dataPage.logoCourse && (
           <img
             alt="Imagen Corporativa"
             className="mB-2 F2 pL-4 mL-7"

@@ -1,0 +1,14 @@
+@import "../resources/colors";
+@import "../resources/animation.scss";
+
+.itemList {
+    .iconList {
+      transform: rotate(45deg);
+    }
+
+    .textList {
+      padding: 0.6rem 1.2rem;
+      border-radius: 50px;
+      background-color: $color6;
+    }
+  }

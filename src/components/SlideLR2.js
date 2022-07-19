@@ -22,7 +22,17 @@ class SlideLR2 extends Component {
   }
 
   mSlides = e => {
-    
+    if (e.currentTarget.id === 'btnAde') {
+      this.setState({
+        page: this.state.page + 1
+      });
+
+      if (e.currentTarget.id === 'btnInade') {
+        this.setState({
+          page: this.state.page - 1
+        });
+      }
+    }
     if (e.currentTarget.id === 'btnAnt') {
       this.setState({
         page: this.state.page - 1
@@ -56,6 +66,8 @@ class SlideLR2 extends Component {
               )
             })
           }
+          </div>
+
           <div className = 'contentButton d-Flex j-Bt aI-C mL-7 mT-7 pAbs'>
             <button className = { 'buttonSlide ' + (this.state.page === 1 ? 'disabled' : '') } id = 'btnAnt' onClick = { this.mSlides }>
               <span className = 'fa-layers fa-fw iconButton' >
@@ -69,9 +81,11 @@ class SlideLR2 extends Component {
                 <FontAwesomeIcon icon="arrow-right" inverse transform="shrink-6" />
               </span>
             </button>
+            <button className = {'buttonSlide' + (this.state.page === 1 ? 'disabled' : '')} id = 'btnAde' onClick = { this.mSlides}></button>
+            <button id = 'btnInade' onClick = { this.mSlides}></button>
           </div>
-        </div>
-      </div>
+          </div>
+          
     );
   }
 }
