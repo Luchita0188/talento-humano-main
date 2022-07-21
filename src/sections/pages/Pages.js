@@ -29,7 +29,7 @@ import SlideDot1 from "../../components/SlideDot1";
 import SlideLR1 from "../../components/SlideLR1";
 import SlideLR2 from "../../components/SlideLR2";
 import SlideUpDown from "../../components/SlideUpDown";
-import Listas from "../../components/Listas";
+
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -40,6 +40,7 @@ import { fab } from "@fortawesome/free-brands-svg-icons";
 import { far } from "@fortawesome/free-regular-svg-icons";
 
 import "./Pages.scss";
+import ItemInteractiveAudio from "../../components/InteractiveAudio1/ItemInteractiveSubtitle";
 
 class Cover extends Component {
   // FUNCION PARA ENVIAR EL INDEX ACTUALIZADO Y EMPEZAR EL CURSO
@@ -277,7 +278,7 @@ class Page2 extends Component {
     return (
       <div className={"pageContent animated fadeIn"}>
         <div className="c-10">
-          <div className="mL-5 mT-6">
+          <div className="mL-5 mT-4">
             <img
               alt="Imagen"
               className="imageNPC pAbs"
@@ -295,12 +296,12 @@ class Page2 extends Component {
                 dangerouslySetInnerHTML={{ __html: dataPage.text }}
               ></p>
             ) : null}
+            </div>
             <div className="mB-2 mL-4">
-              <Listas dataPage={dataPage} isEnded={this.isEnded} />
+              <InteractiveSubtitle dataPage={dataPage} isEnded={this.isEnded} />
             </div>
           </div>
         </div>
-      </div>
     );
   }
 }

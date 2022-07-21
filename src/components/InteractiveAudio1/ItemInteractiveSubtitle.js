@@ -20,19 +20,19 @@ class ItemInteractiveAudio extends Component {
       items: []
     }
   }
-
+  
   makeItems = () => {
     const ITEM = this.props.dataItem.map( (item, i) => {
       return(
         <div
           id = { item.time }
-          className = { 'itemList c-5 d-Flex d-Rr j-E aI-C pL-1 pR-1 mB-1 animated fadeIn dNone'}
+          className = { 'itemList c-5 d-Flex d-Rr j-E aI-C pL-1 pR-1 mB-1 animated fadeIn'}
           key = { i }
           style = { {} }>
             <p className = 'textList' dangerouslySetInnerHTML = {{ __html: item.label }}></p>
             <FontAwesomeIcon
             className = 'iconList'
-            icon = { ['fas', 'square'] }
+            icon = { ['fas','circle'] }
             size = '2x'
             style = { { 'color': item.color } } />
         </div>
@@ -58,7 +58,7 @@ class ItemInteractiveAudio extends Component {
 
   render() {
     return (
-      <div className = 'd-Flex d-C j-S aI-S c-55 wW' style = {{ 'height': 240 }}>
+      <div className = 'd-Flex d-C j-S aI-S c-7 wW' style = {{ 'height': 331 }}>
         { this.makeItems() }
       </div>
     );
